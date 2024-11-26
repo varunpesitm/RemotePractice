@@ -4,5 +4,11 @@ int main(int argc, char const *argv[])
 {
     /* code */
     printf("\nthis que is dynamic\n");
+    insert();
     return 0;
+}
+
+void insert()
+{
+    printf("here we will type insert logic later");
 }
