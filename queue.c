@@ -12,3 +12,8 @@ void insert()
 {
     printf("here we will type insert logic later");
 }
+
+void display()
+{
+    printf("here we will put display logic");
+}
