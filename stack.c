@@ -6,7 +6,12 @@ int main(int argc, char const *argv[])
 {
     /* code */
     printf("here i will call push function\n");
-    push();
+    for(int i =0;i<5;i++)
+    {
+        push();
+        pop();
+    }
+    
     return 0;
 }
 
@@ -21,5 +26,6 @@ void push()
 int pop()
 {
 
-    
+    printf("%d deleted\n",stack[top--]);
+
 }
