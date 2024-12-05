@@ -26,6 +26,6 @@ void push()
 int pop()
 {
 
-    printf("%d deleted",stack[top--]);
+    printf("%d deleted\n",stack[top--]);
 
 }
